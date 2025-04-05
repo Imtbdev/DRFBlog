@@ -40,12 +40,3 @@ It allows users to create posts, comment on them, and view content via RESTful e
 ![Get Posts](https://github.com/Imtbdev/DRFBlog/blob/main/images/get_posts.png?raw=true)
 
 ---
-
-## 🛠️ Features
-
-- Token-based authentication
-- Create, retrieve, update, and delete posts and comments
-- View nested comments under posts
-- RESTful and browsable API via DRF
-
----
