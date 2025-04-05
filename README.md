@@ -1,44 +1,51 @@
 # 📝 Blog API using Django REST Framework
 
-This project is a simple blog API built with Django REST Framework.  
-It supports creating posts, adding comments, and retrieving them via clean RESTful endpoints.
+This is a simple blog API built with Django REST Framework.  
+It allows users to create posts, comment on them, and view content via RESTful endpoints.
 
 ---
 
 ## 🔗 API Routes Overview
 
-![API Routes](https://prnt.sc/CE9dDgTYGpS3.png)
+![API Routes](https://github.com/Imtbdev/DRFBlog/blob/main/images/routes.png?raw=true)
 
 ---
 
-## ✍️ Create a Post
+## 📝 Create a Post
 
-To create a post, send a `POST` request to `/api/v1/posts/` with a valid token and post data.
-
-![Create Post](https://prnt.sc/kNE_x1h60RD1.png)
+![Create Post](https://github.com/Imtbdev/DRFBlog/blob/main/images/post_post.png?raw=true)
 
 ---
 
-## 💬 Add a Comment to a Post
+## 💬 Create a Comment
 
-To create a comment, send a `POST` request to `/api/v1/comments/` with the required fields (`text`, `post`, etc.).
-
-![Create Comment](https://prnt.sc/0It98aSn2GSt.png)
+![Create Comment](https://github.com/Imtbdev/DRFBlog/blob/main/images/post_comment.png?raw=true)
 
 ---
 
 ## 🔍 View a Comment
 
-To retrieve a comment by its ID, use the endpoint `/api/v1/comments/<id>/`.
-
-![View Comment](https://prnt.sc/GF4wdXdQ8DYT.png)
+![View Comment](https://github.com/Imtbdev/DRFBlog/blob/main/images/get_comments.png?raw=true)
 
 ---
 
 ## 📖 View a Post with Its Comments
 
-The post detail view includes all related comments via the nested serializer.
+![Post with Comments](https://github.com/Imtbdev/DRFBlog/blob/main/images/get_post_and_comments.png?raw=true)
 
-![Post with Comments](https://prnt.sc/74mHSHLcwude.png)
+---
+
+## 📚 View All Posts
+
+![Get Posts](https://github.com/Imtbdev/DRFBlog/blob/main/images/get_posts.png?raw=true)
+
+---
+
+## 🛠️ Features
+
+- Token-based authentication
+- Create, retrieve, update, and delete posts and comments
+- View nested comments under posts
+- RESTful and browsable API via DRF
 
 ---
