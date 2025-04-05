@@ -7,7 +7,7 @@ It supports creating posts, adding comments, and retrieving them via clean RESTf
 
 ## 🔗 API Routes Overview
 
-![API Routes](https://prnt.sc/CE9dDgTYGpS3)
+![API Routes](https://prnt.sc/CE9dDgTYGpS3.png)
 
 ---
 
@@ -15,7 +15,7 @@ It supports creating posts, adding comments, and retrieving them via clean RESTf
 
 To create a post, send a `POST` request to `/api/v1/posts/` with a valid token and post data.
 
-![Create Post](https://prnt.sc/kNE_x1h60RD1)
+![Create Post](https://prnt.sc/kNE_x1h60RD1.png)
 
 ---
 
@@ -23,7 +23,7 @@ To create a post, send a `POST` request to `/api/v1/posts/` with a valid token a
 
 To create a comment, send a `POST` request to `/api/v1/comments/` with the required fields (`text`, `post`, etc.).
 
-![Create Comment](https://prnt.sc/0It98aSn2GSt)
+![Create Comment](https://prnt.sc/0It98aSn2GSt.png)
 
 ---
 
@@ -31,7 +31,7 @@ To create a comment, send a `POST` request to `/api/v1/comments/` with the requi
 
 To retrieve a comment by its ID, use the endpoint `/api/v1/comments/<id>/`.
 
-![View Comment](https://prnt.sc/GF4wdXdQ8DYT)
+![View Comment](https://prnt.sc/GF4wdXdQ8DYT.png)
 
 ---
 
@@ -39,6 +39,6 @@ To retrieve a comment by its ID, use the endpoint `/api/v1/comments/<id>/`.
 
 The post detail view includes all related comments via the nested serializer.
 
-![Post with Comments](https://prnt.sc/74mHSHLcwude)
+![Post with Comments](https://prnt.sc/74mHSHLcwude.png)
 
 ---
